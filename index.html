@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Set character encoding -->
+      <meta charset="UTF-8">
+      <!-- Responsive viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Title of the document -->
+      <title>To-Do list</title>
+      <!-- Font family for the document -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <!-- Roboto -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Montserrat -->
+      <!-- Linking external stylesheet -->
+      <link rel="stylesheet" href="/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="todo-app">
+            <!-- Heading for the To-Do list -->
+            <h2>To-Do List <img src="/img/icon.png"></h2>
+            <div class="row">
+               <!-- Input box for adding tasks -->
+               <input type="text" id="input-box" placeholder="Add your task">
+               <!-- Button to add tasks -->
+               <button onclick="addTask()">Add</button>
+            </div>
+            <!-- List container to hold tasks -->
+            <ul id="list-container">
+            </ul>
+         </div>
+      </div>
+      <!-- Including JavaScript file -->
+      <script src="app.js"></script>
+   </body>
+</html>
